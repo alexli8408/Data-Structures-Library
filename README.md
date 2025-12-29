@@ -53,7 +53,7 @@ Results vary by machine.
 
 ## Rationale for Performance Differences
 
-DynamicArray: std::vector uses memcpy while my DynamicArray does not, presumably resulting in higher speeds.
-LinkedList: std::list is a doubly-linked list while my LinkedList is a singly-linked list with a tail pointer, presumably resulting in slower speeds from more operations.
-HashMap: std::unordered_map has a more complex hash function than my HashMap, presumably resulting in slower speeds from more operations.
-BinarySearchTree: std::set is a balanced binary search tree while my BinarySearchTree is an unbalanced binary search tree, presumably resulting in slower speeds from more operations.
+- DynamicArray: std::vector uses memcpy while my DynamicArray does not, presumably resulting in higher speeds.
+- LinkedList: std::list is a doubly-linked list while my LinkedList is a singly-linked list with a tail pointer, presumably resulting in slower speeds from more operations.
+- HashMap: std::unordered_map has a more complex hash function than my HashMap, presumably resulting in slower speeds from more operations.
+- BinarySearchTree: std::set is a balanced binary search tree while my BinarySearchTree is an unbalanced binary search tree, presumably resulting in slower speeds from more operations.
