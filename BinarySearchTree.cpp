@@ -333,7 +333,7 @@ void BinarySearchTree::levelorder_print(const Node* curr) const {
             q.enqueue(temp->left);
         }
 
-        if(temp->right != nullptr) {
+        if (temp->right != nullptr) {
             q.enqueue(temp->right);
         }
     }
